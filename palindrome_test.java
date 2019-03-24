@@ -1,5 +1,3 @@
-package mathematicalPrograms;
-
 import java.util.*;
 
 public class palindrome_test {
