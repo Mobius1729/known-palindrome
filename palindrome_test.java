@@ -5,6 +5,10 @@ public class palindrome_test {
 	private static Scanner userInput = new Scanner(System.in);
 	private static String empty = "";
 	
+	/** A method which determines if a given number is a palindrome
+	* @param num - the number which is being tested to determine if it is a palindrome
+	* @return prints via StdOut the result of the test (method returns void). 
+	*/
 	public static void palindrome(int num) {
 		String pal_string = Integer.toString(num);
 		for(int i = (pal_string.length()-1); i>=0; i--) {
@@ -28,7 +32,6 @@ public class palindrome_test {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
 			while(true) {
 				System.out.println("Please enter a positive integer.");
